@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="La Alquimia" />
+    <title>La Alquimia Analizer</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/base.css">
+</head>
+
+<body style=" font-family: Arial, Helvetica, sans-serif; background-color: black; color: white">
+
+    <div class="min-h-full">
+        <nav class="bg-gray-800 sticky top-0 z-10 w-full">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="flex h-16 items-center justify-between">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0">
+                            <img class="h-8 w-8" src="/assets/favicon.ico" alt="La Alquimia Logo">
+                        </div>
+                        <div class="hidden md:block">
+                            <div class="ml-10 flex items-baseline space-x-4">
+                                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                                <a href="/"
+                                    class=" hover:bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium">Analyzer</a>
+                                <a href="/tutorial"
+                                    class="text-gray-300 bg-gray-900 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Como
+                                    Usar?</a>
+                                <a href="/tool"
+                                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+                                    🌟Premium Signals</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-4 flex items-center md:ml-6">
+                            <button type="button"
+                                class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                                <span class="absolute -inset-1.5"></span>
+                                <span class="sr-only">View notifications</span>
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                                </svg>
+                            </button>
+
+                            <!-- Profile dropdown -->
+                            <div class="relative ml-3">
+                                <div>
+                                    <button type="button"
+                                        class="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                        id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                                        <span class="absolute -inset-1.5"></span>
+                                        <span class="sr-only">Open user menu</span>
+                                        <img class="h-8 w-8 rounded-full" src="/assets/favicon.ico" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="-mr-2 flex md:hidden">
+                        <!-- Mobile menu button -->
+                        <button type="button"
+                            class="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                            aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="absolute -inset-0.5"></span>
+                            <span class="sr-only">Open main menu</span>
+                            <!-- Menu open: "hidden", Menu closed: "block" -->
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                            <!-- Menu open: "block", Menu closed: "hidden" -->
+                            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="flex flex-col relative items-center">
+            <h1 class="text-4xl my-4">Tutorial</h1>
+            <div class="lg:w-3/5 mx-6">
+                <h2 class="text-2xl my-4">1. Mean Reversion </h2>
+                <p class="text-lg my-4 px-6">
+                    La reversión a la media es una teoría financiera que sugiere que los precios de los activos
+                    eventualmente volverán a su media o promedio a largo plazo.</p>
+                <!-- image  -->
+                <img src="/assets/short.png" alt="Mean Reversion" class="w-auto px-6 h-auto my-4">
+                <p class="text-lg my-4 px-6"> Este concepto se basa en la creencia de que los precios de los activos y
+                    los rendimientos históricos tenderán hacia un promedio a largo plazo con el tiempo. </p>
+                <p class="text-lg my-4 px-6">Cuanto mayor sea la desviación de esta media, mayor será la probabilidad de
+                    que el precio del activo se acerque a ella en el futuro.</p>
+
+
+                <h2 class="text-2xl my-4">2. Cálculo de porcentajes </h2>
+                <p class="text-lg my-4 px-6">Una vez que tenemos la media móvil, podemos calcular la distancia del
+                    precio actual a la media y compararlo con la distancia del precio actual a la media móvil. Si el
+                    precio actual está por
+                    encima de la media móvi entonces hay una mayor probabilidad de que el precio baje a la media móvil.
+                </p>
+                <p class="text-lg my-4 px-6">Por otro lado, si el precio actual está por debajo de la media móvil,
+                    entonces hay una mayor probabilidad de que el precio vuelva a la
+                    media móvil en el futuro.</p>
+                <image src="/assets/movingAverage.png" alt="Mean Reversion" class="w-auto px-6 h-auto my-4"></image>
+                <p class="text-lg my-4 px-6">Finalmente si calculamos la diferencia entre el ultimo precio de apertura y
+                    la media móvil y obtenemos un porcentaje de este valor en funcion de el precio.</p>
+                <p class="text-lg my-4 px-6">Tenemos una fácil manera de saber si el precio actual está por encima o por
+                    debajo de la media movil en una magnitud conocida por el trader.</p>
+                <image class="w-auto px-6 h-auto my-4"
+                    src="https://github.com/LaAlquimia/laalquimia.github.io/assets/38500708/a2ad7c06-c3ef-4a75-8549-e1abfbaf8bec">
+                </image>
+                <h2 class="text-2xl my-4">3. El gráfico </h2>
+                <p class="text-lg my-4 px-6">El gráfico nos permite ver la evolución de la media movil y el porcentaje
+                    de la distancia del precio actual a la media movil.</p>
+                <p class="text-lg my-4 px-6">El valor expresado en la marca de agua es el porcentaje de la distancia al ultimo precio de apertura.</p>
+                <image
+                    src="https://github.com/LaAlquimia/laalquimia.github.io/assets/38500708/7ddc779a-2cf3-4488-9325-67382cb9a49c"
+                    alt="Mean Reversion graph" class="w-auto px-6 h-auto my-4"></image>
+        
+            </div>
+    </div>
+    </main>
+    </div>
+
+</body>
+
+</html>
